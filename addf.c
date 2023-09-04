@@ -16,6 +16,6 @@ int main() {
     printf("Please enter an integer.\n");
     scanf("%d", &number);
     result = add(number);
-    printf("Sum is %d.\n", result);
+    printf("The sum of numbers from 0 to %d is %d.\n", number, result);
     return 0;
 }
